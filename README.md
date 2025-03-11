@@ -1,4 +1,4 @@
-# __shellTemplate
+# __CoreTemplate
 
 [ドキュメント](./Document/README.md)
 
