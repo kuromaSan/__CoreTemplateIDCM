@@ -1,7 +1,7 @@
 # L02_Application
 
-## 実行リスト
+## 実装リスト
 
-[__Todo](./__Todo/README.md)
+[実装名](./__Todo/README.md)
 
 [Back](../README.md)  

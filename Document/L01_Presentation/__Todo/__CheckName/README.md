@@ -1,4 +1,4 @@
-# __CheckList
+# 確認名
 
 ## 確認区分
 
@@ -8,6 +8,6 @@
 
 ## 確認テーブル
 
-[テーブル](./_ValuationTable/README.md)
+[確認表](./__TableName/README.md)
 
 [Back](../README.md)

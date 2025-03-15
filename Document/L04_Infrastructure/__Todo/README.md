@@ -1,4 +1,4 @@
-# __Todo
+# 実装名
 
 ## 実装内容
 
@@ -6,6 +6,6 @@
 
 ## 確認リスト
 
-[__CheckList](./__CheckList/README.md)
+[確認名](./__CheckName/README.md)
 
 [Back](../README.md)  
