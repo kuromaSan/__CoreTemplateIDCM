@@ -1,112 +1,194 @@
 Config:
-# Contents
+  - File:
+    PathParts:
+      - "."
+      - "Crafter"
+      - "README.md"
+    Contents:
+      - Heading1: "Crafter"
+      - Heading2: "実装一覧"
+      - Link:
+        Label: "実装名"
+        PathParts: 
+          - "."
+          - "__Tode"
+          - "README.md"
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
+  - File:
+    PathParts:
+      - "."
+      - "Crafter"
+      - "__Tode"
+      - "README.md"
+    Contents:
+      - Heading1: "実装名"
+      - Heading2: "実装内容"
+      - Text: ""
+      - Heading2: "実装方法"
+      - Text: ""
+      - Heading2: "確認一覧"
+      - Link:
+        Label: "確認名"
+        PathParts: 
+          - "."
+          - "__CheckName"
+          - "README.md"
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
+  - File:
+    PathParts:
+      - "."
+      - "Crafter"
+      - "__Tode"
+      - "__CheckName"
+      - "README.md"
+    Contents:
+      - Heading1: "確認名"
+      - Heading2: "確認区分"
+      - Text: "正常"
+      - Heading2: "確認内容"
+      - Text: ""
+      - Heading2: "確認方法"
+      - Text: ""
+      - Heading2: "確認結果"
+      - Link:
+        Label: "確認表"
+        PathParts: 
+          - "."
+          - "__TableName"
+          - "README.md"
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
+  - File:
+    PathParts: 
+      - "."
+      - "Crafter"
+      - "__Todo"
+      - "__CheckName"
+      - "__TableName"
+    Contents:
+      - Table:
+        - Data: "2000-00-00"
+          Reviewer: "見本名"
+          Judgment: true
+          Comment: "OK"
+        - Data: "2000-00-00"
+          Reviewer: "見本名"
+          Judgment: false
+          Comment: "ここ修正"
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
   - File:
     PathParts: 
       - "L00_Schema"
       - "README.md"
-    Extension:
-      Markdonw:
-        - Heading1: "L00_Schema"
-        - Link:
-          Label: "SchemaSample"
-          PathParts: 
-            - "."
-            - "__Schema"
-            - "README.md"
-        - Link:
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
+    Title: "L00_Schema"
+    Contents:
+      - Heading2: "構想一覧"
+      - Link:
+        Label: "構想名"
+        PathParts: 
+          - "."
+          - "__Schema"
+          - "README.md"
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
   - File:
     PathParts: 
-      - "L01_Presentation"
-      - "README.md"
-    Extension:
-      Markdonw:
-        - Heading2: "実行リスト"
-        - Link: 
-          Label: "__Todo"
-          PathParts: 
-            - "."
-            - "__Todo"
-            - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
-  - File:
-    PathParts: 
-      - "L02_Application"
-      - "README.md"
-    Extension:
-      Markdonw:
-        - Heading2: "実行リスト"
-        - Link: 
-          Label: "__Todo"
-          PathParts: 
-            - "."
-            - "__Todo"
-            - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
-  - File:
-    PathParts: 
-      - "L03_Domain"
-      - "README.md"
-    Extension:
-      Markdonw:
-        - Heading2: "実行リスト"
-        - Link: 
-          Label: "__Todo"
-          PathParts: 
-            - "."
-            - "__Todo"
-            - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
-  - File:
-    PathParts: 
-      - "L04_Infrastructure"
-      - "README.md"
-    Extension:
-      Markdonw:
-        - Heading2: "実行リスト"
-        - Link: 
-          Label: "__Todo"
-          PathParts: 
-            - "."
-            - "__Todo"
-            - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
-# Schema
-  - File:
-    PathParts: 
-      - "00_Schema"
+      - "."
+      - "L00_Schema"
       - "__Schema"
       - "README.md"
+    Contents:
+      - Heading1: "構想名"
+      - Heading2: "体験"
+      - Text: ""
+      - Heading2: "評価"
+      - Text: ""
+      - Heading2: "仮説"
+      - Text: ""
+      - Heading2: "検証"
+      - Text: ""
+      - Link:
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
+  - File:
+    PathParts: 
+      - "."
+      - "L01_Variable"
+      - "README.md"
+    Contents:
+      - Heading1: "L01_Variable"
+      - Heading2: "スクリプト一覧"
+      - Link: 
+        Label: "Config"
+        PathParts: 
+          - "."
+          - "Config"
+          - "README.md"
+      - Link: 
+        Label: "Builder"
+        PathParts: 
+          - "."
+          - "Builder"
+          - "README.md"
+      - Link: 
+        Label: "Back"
+        PathParts: 
+          - ".."
+          - "README.md"
+  - File:
+    PathParts: 
+      - "."
+      - "L02_Function"
+      - "README.md"
     Extension:
-      Markdown:
-        - Heading2: "体験"
-        - Text: ""
-        - Heading2: "評価"
-        - Text: ""
-        - Heading2: "仮説"
-        - Text: ""
-        - Heading2: "検証"
-        - Text: ""
-        - Link:
+      Markdonw:
+        - Heading2: "実行リスト"
+        - Link: 
+          Label: "__Todo"
+          PathParts: 
+            - "."
+            - "__Todo"
+            - "README.md"
+        - Link: 
+          Label: "Back"
+          PathParts: 
+           - ".."
+           - "README.md"
+  - File:
+    PathParts: 
+      - "."
+      - "L03_Interface"
+      - "README.md"
+    Extension:
+      Markdonw:
+        - Heading2: "実行リスト"
+        - Link: 
+          Label: "__Todo"
+          PathParts: 
+            - "."
+            - "__Todo"
+            - "README.md"
+        - Link: 
           Label: "Back"
           PathParts: 
            - ".."
