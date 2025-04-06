@@ -1,7 +1,7 @@
 # L00_Schema
 
-## スキーマリスト
+## 構想一覧
 
-[SchemaSample](./__Schema/README.md)
+[構想名](./__Schema/README.md)
 
 [Back](../README.md)
