@@ -2,7 +2,7 @@
 
 ## 確認区分
 
-正常
+正常/異常
 
 ## 確認内容
 
@@ -16,4 +16,5 @@
 
 [確認表](./__TableName/README.md)
 
-[Back](../README.md)
+---
+[Back](../README.md)  

@@ -8,4 +8,5 @@
 
 [構想名](./__Schema/README.md)
 
-[Back](../README.md)
+---
+[Back](../README.md)  

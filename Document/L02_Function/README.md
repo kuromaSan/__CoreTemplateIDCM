@@ -10,4 +10,5 @@
 [Strategy](./Strategy/README.md)  
 [Repository](./Repository/README.md)  
 
-[back](../README.md)
+---
+[Back](../README.md)  

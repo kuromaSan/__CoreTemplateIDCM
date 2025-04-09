@@ -13,11 +13,7 @@ Config:
           - "."
           - "__Tode"
           - "README.md"
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts:
       - "."
@@ -37,11 +33,7 @@ Config:
           - "."
           - "__CheckName"
           - "README.md"
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts:
       - "."
@@ -64,11 +56,7 @@ Config:
           - "."
           - "__TableName"
           - "README.md"
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts: 
       - "."
@@ -86,11 +74,7 @@ Config:
           Reviewer: "見本名"
           Judgment: false
           Comment: "ここ修正"
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts: 
       - "L00_Schema"
@@ -104,11 +88,7 @@ Config:
           - "."
           - "__Schema"
           - "README.md"
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts: 
       - "."
@@ -125,11 +105,7 @@ Config:
       - Text: ""
       - Heading2: "検証"
       - Text: ""
-      - Link:
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts: 
       - "."
@@ -150,11 +126,7 @@ Config:
           - "."
           - "Builder"
           - "README.md"
-      - Link: 
-        Label: "Back"
-        PathParts: 
-          - ".."
-          - "README.md"
+      - Back: null
   - File:
     PathParts: 
       - "."
@@ -169,11 +141,7 @@ Config:
             - "."
             - "__Todo"
             - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
+        - Back: null
   - File:
     PathParts: 
       - "."
@@ -188,11 +156,7 @@ Config:
             - "."
             - "__Todo"
             - "README.md"
-        - Link: 
-          Label: "Back"
-          PathParts: 
-           - ".."
-           - "README.md"
+        - Back: null
 # Todo
   - File:
     PathParts: 

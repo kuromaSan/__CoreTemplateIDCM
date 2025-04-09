@@ -6,4 +6,5 @@
 | YYYY-MM-DD | 見本名 | NG | ここ修正 |
 |||||
 
-[Back](../README.md)
+---
+[Back](../README.md)  
