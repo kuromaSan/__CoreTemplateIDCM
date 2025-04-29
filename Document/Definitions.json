@@ -1,15 +1,135 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {
-        "User": {
-            "type": "object",
+        "Heading1": {
+            "type": "string",
             "properties": {
             "id": { "type": "integer" },
             "name": { "type": "string" }
             },
             "required": ["id", "name"]
         },
-        "Product": {
+        "Heading2": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Heading3": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Heading4": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Heading5": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Heading6": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Text": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Code": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Section": {
+            "type": "string",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "BulletList": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "OrderedList": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Checkbox": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Image": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Table": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Link": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Back": {
+            "type": "object",
+            "properties": {
+            "productId": { "type": "integer" },
+            "title": { "type": "string" }
+            },
+            "required": ["productId", "title"]
+        },
+        "Details": {
             "type": "object",
             "properties": {
             "productId": { "type": "integer" },

@@ -1,4 +1,4 @@
-# L00_Schema
+# _Schema
 
 ## フォルダ概要
 

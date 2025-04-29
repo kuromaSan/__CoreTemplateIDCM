@@ -6,15 +6,11 @@
 
 ## フォルダ一覧
 
-[L00_Schema](./L00_Schema/README.md)  
-[L01_Variable](./L01_Variable/README.md)  
-[L02_Function](./L02_Function/README.md)  
-[L03_Interface](./L03_Interface/README.md)  
-
-## スクリプト一覧
-
-[Crafter](./Crafter/README.md)  
-[Model](./Model/README.md)  
+[Schema](./_Schema/README.md)  
+[Core](./Core/README.md)  
+[Variable](./Variable/README.md)  
+[Function](./Function/README.md)  
+[Interface](./Interface/README.md)  
 
 ---
 [Back](../README.md)

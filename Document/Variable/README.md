@@ -1,10 +1,10 @@
-# L01_Variable
+# Variable
 
 ## フォルダ概要
 
 変数を格納するフォルダ
 
-## スクリプト一覧
+## ファイル一覧
 
 [Config](./Config/README.md)  
 [Builder](./Builder/README.md)  

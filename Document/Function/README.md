@@ -1,10 +1,10 @@
-# F02_Function
+# Function
 
 ## フォルダ概要
 
 関数を格納するフォルダ
 
-## スクリプト一覧
+## ファイル一覧
 
 [Policy](./Policy/README.md)  
 [Strategy](./Strategy/README.md)  
