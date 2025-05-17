@@ -1,16 +1,16 @@
-# Document
+# ドキュメント
 
-## 概要
+## 企画内容
 
 テンプレートドキュメント
 
-## フォルダ一覧
+## 企画構想
 
-[Schema](./_Schema/README.md)  
-[Core](./Core/README.md)  
-[Variable](./Variable/README.md)  
-[Function](./Function/README.md)  
-[Interface](./Interface/README.md)  
+[構想名](./__Schema/README.md)  
+
+## 企画実装
+
+[実装名](./__Todo/README.md)  
 
 ---
 [Back](../README.md)

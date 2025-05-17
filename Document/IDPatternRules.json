@@ -1,0 +1,21 @@
+{
+    "classTypes":{
+        "01":"Project",
+        "02":"Todo",
+        "03":"Validate",
+        "04":"Schema",
+        "05":"Result",
+        "06":"Record"
+    },
+    "propertyTypes":{
+        "02":{
+            "01":"process"
+        },
+        "03":{
+            "01":"process"
+        },
+        "05":{
+            "01":"arguments"
+        }
+    }
+}
