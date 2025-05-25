@@ -1,141 +1,144 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "definitions": {
-        "Heading1": {
-            "type": "string",
-            "properties": {
-            "id": { "type": "integer" },
-            "name": { "type": "string" }
-            },
-            "required": ["id", "name"]
-        },
-        "Heading2": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Heading3": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Heading4": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Heading5": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Heading6": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Text": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Code": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "Section": {
-            "type": "string",
-            "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
-            },
-            "required": ["productId", "title"]
-        },
-        "BulletList": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MarkdownBlocksSchema",
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "minProperties": 1,
+        "maxProperties": 1,
+        "patternProperties": {
+          "^Header1$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "OrderedList": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Header2$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Checkbox": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Header3$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Image": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Header4$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Table": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Header5$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Link": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Header6$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Back": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Text$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        },
-        "Details": {
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Link$": {
             "type": "object",
             "properties": {
-            "productId": { "type": "integer" },
-            "title": { "type": "string" }
+              "value": { "type": "string" }
             },
-            "required": ["productId", "title"]
-        }
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Image$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" }
+            },
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^BulletList$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" }
+            },
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^OrderedList$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" }
+            },
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^CheckBox$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" },
+              "check": { "type": "boolean" }
+            },
+            "required": ["value", "check"],
+            "additionalProperties": false
+          },
+          "^Details$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" },
+              "open": { "type": "boolean" }
+            },
+            "required": ["value", "check"],
+            "additionalProperties": false
+          },
+          "^CodeBlock$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" },
+              "lang": { "type": "string" }
+            },
+            "required": ["value"],
+            "additionalProperties": false
+          },
+          "^Table$": {
+            "type": "object",
+            "properties": {
+              "value": { "type": "string" },
+              "lang": { "type": "string" }
+            },
+            "required": ["value"],
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
     }
+  },
+  "required": ["markdowns"],
+  "additionalProperties": false
 }

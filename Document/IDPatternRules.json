@@ -3,19 +3,20 @@
         "01":"Project",
         "02":"Todo",
         "03":"Validate",
-        "04":"Schema",
-        "05":"Result",
-        "06":"Record"
+        "04":"Result",
+        "05":"Record",
+        "06":"Process",
+        "07":"Schema"
     },
     "propertyTypes":{
-        "02":{
-            "01":"process"
-        },
-        "03":{
-            "01":"process"
-        },
-        "05":{
+        "04":{
             "01":"arguments"
+        },
+        "06":{
+            "01":"nodes"
+        },
+        "07":{
+            "01":"nodes"
         }
     }
 }

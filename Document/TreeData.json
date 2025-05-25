@@ -1,42 +1,22 @@
 {
     "Project":[
         {
+            "path":"",
             "title":"",
             "description":"",
-            "Schema":[
-                {
-                    "title":"",
-                    "history":"",
-                    "quality":"",
-                    "forecast":"",
-                    "abstract":"",
-                    "method":""
-                }
-            ],
             "Todo":[
                 {
+                    "path":"",
                     "title":"",
                     "description":"",
-                    "process":[
-                        {
-                            "sequence":0,
-                            "style":"",
-                            "value":""
-                        }
-                    ],
                     "Validate":[
                         {
+                            "path":"",
                             "title":"",
                             "description":"",
-                            "process":[
-                                {
-                                    "sequence":0,
-                                    "style":"",
-                                    "value":""
-                                }
-                            ],
                             "Result":[
                                 {
+                                    "path":"",
                                     "title":"",
                                     "normal":1,
                                     "wanted":null,
@@ -63,17 +43,121 @@
                                         }
                                     ]
                                 }
+                            ],
+                            "Process":[
+                                {
+                                    "path":"",
+                                    "title":"",
+                                    "nodes":[
+                                        {
+                                            "OrderedList":{
+                                                "value":"1行目"
+                                            }
+                                        },
+                                        {
+                                            "OrderedList":{
+                                                "value":"2行目"
+                                            }
+                                        },
+                                        {
+                                            "OrderedList":{
+                                                "value":"3行目"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Process":[
+                        {
+                            "path":"",
+                            "title":"",
+                            "nodes":[
+                                {
+                                    "OrderedList":{
+                                        "value":"1行目"
+                                    }
+                                },
+                                {
+                                    "OrderedList":{
+                                        "value":"2行目"
+                                    }
+                                },
+                                {
+                                    "OrderedList":{
+                                        "value":"3行目"
+                                    }
+                                }
                             ]
                         }
                     ],
                     "Schema":[
                         {
+                            "path":"",
                             "title":"",
-                            "history":"",
-                            "quality":"",
-                            "forecast":"",
-                            "abstract":"",
-                            "method":""
+                            "nodes":
+                            [
+                                {
+                                    "Header2":{
+                                        "value":"体験"
+                                    }
+                                },
+                                {
+                                    "Header2":{
+                                        "value":"評価"
+                                    }
+                                },
+                                {
+                                    "Header2":{
+                                        "value":"仮説"
+                                    }
+                                },
+                                {
+                                    "Header2":{
+                                        "value":"抽象"
+                                    }
+                                },
+                                {
+                                    "Header2":{
+                                        "value":"方法"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Schema":[
+                {
+                    "path":"",
+                    "title":"",
+                    "nodes":
+                    [
+                        {
+                            "Header2":{
+                                "value":"体験"
+                            }
+                        },
+                        {
+                            "Header2":{
+                                "value":"評価"
+                            }
+                        },
+                        {
+                            "Header2":{
+                                "value":"仮説"
+                            }
+                        },
+                        {
+                            "Header2":{
+                                "value":"抽象"
+                            }
+                        },
+                        {
+                            "Header2":{
+                                "value":"方法"
+                            }
                         }
                     ]
                 }
