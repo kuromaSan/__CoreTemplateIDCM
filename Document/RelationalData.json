@@ -1,268 +1,157 @@
 {
-  "Projects":[
+  "Subjects":[
     {
       "id":"00010001",
-      "path":"",
+      "path_name":"",
       "title":"",
       "description":""
     }
   ],
   "Todos":[
     {
-      "project_id":"00010001",
+      "parent_id":"00010001",
       "id":"00010002",
-      "path":"",
+      "path_name":"",
       "title":"",
       "description":""
     }
   ],
   "Validates":[
     {
-      "todo_id":"00010002",
+      "parent_id":"00010002",
       "id":"00010003",
-      "path":"",
+      "path_name":"",
       "title":"",
       "description":""
     }
   ],
   "Results":[
     {
-      "validate_id":"00010003",
+      "parent_id":"00010003",
       "id":"00010004",
-      "path":"",
+      "path_name":"",
       "title":"",
-      "success":1,
-      "return":null
+      "success":true,
+      "expected_value":null,
+      "expected_type":"object"
     }
   ],
   "arguments":[
     {
-      "result_id":"00010004",
+      "parent_id":"00010004",
       "id":"00010104",
       "key":"",
+      "type":"",
       "value":""
     }
   ],
   "Records":[
     {
-      "result_id":"00010004",
+      "parent_id":"00010004",
       "id":"00010005",
-      "date":"yyyy-MM-dd",
+      "date":"2000-01-01 00:00:00",
       "reviewer":"見本名",
-      "success": 1,
-      "return":null,
+      "success": true,
+      "expected_value":null,
+      "expected_type":"object",
       "messege":""
     },
     {
-      "result_id":"00010004",
+      "parent_id":"00010004",
       "id":"00020005",
-      "date":"yyyy-MM-dd",
+      "date":"2000-01-01 00:00:00",
       "reviewer":"見本名",
-      "success": 0,
-      "return":null,
+      "success": false,
+      "expected_value":null,
+      "expected_type":"object",
       "messege":"ここ修正"
     }
   ],
-  "Process":[
+  "Processs":[
     {
-      "todo_id":"00010002",
+      "parent_id":"00010002",
       "id":"00010006",
-      "path":"",
+      "path_name":"",
       "title":""
     },
     {
-      "validate_id":"00010003",
+      "parent_id":"00010003",
       "id":"00020006",
-      "path":"",
+      "path_name":"",
       "title":""
+    }
+  ],
+  "steps":[
+    {
+      "parent_id":"00010006",
+      "id":"00010106",
+      "value":"1行目"
+    },
+    {
+      "parent_id":"00010006",
+      "id":"00020106",
+      "value":"2行目"
+    },
+    {
+      "parent_id":"00010006",
+      "id":"00030106",
+      "value":"3行目"
+    },
+    {
+      "parent_id":"00020006",
+      "id":"00040106",
+      "value":"1行目"
+    },
+    {
+      "parent_id":"00020006",
+      "id":"00050106",
+      "value":"2行目"
+    },
+    {
+      "parent_id":"00020006",
+      "id":"00060106",
+      "value":"3行目"
     }
   ],
   "Schemas":[
     {
-      "project_id":"00010001",
+      "parent_id":"00010001",
       "id":"00010007",
-      "path":"",
-      "title":""
+      "path_name":"",
+      "title":"",
+      "experience":"",
+      "evaluation":"",
+      "abduction":"",
+      "abstraction_goal":"",
+      "execution_goal":""
     },
     {
-      "todo_id":"00010002",
+      "parent_id":"00010002",
       "id":"00020007",
-      "path":"",
-      "title":""
+      "path_name":"",
+      "title":"",
+      "experience":"",
+      "evaluation":"",
+      "abduction":"",
+      "abstraction_goal":"",
+      "execution_goal":""
     }
   ],
-  "nodes":[
+  "exceptions":[
     {
-      "process_id":"00010006",
-      "id":"00010106",
-      "OrderedList":{
-        "values":[
-          "1行目",
-          "2行目",
-          "3行目"
-        ]
-      }
+      "parent_id":"00010004",
+      "id":"00010204",
+      "value":"Exception"
     },
     {
-      "process_id":"00020006",
-      "id":"00020106",
-      "OrderedList":{
-        "values":[
-          "1行目",
-          "2行目",
-          "3行目"
-        ]
-      }
+      "parent_id":"00010005",
+      "id":"00010105",
+      "value":"Exception"
     },
     {
-      "schema_id":"00010007",
-      "id":"00010107",
-      "Header":{
-        "value":"体験",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00020107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00030107",
-      "Header":{
-        "value":"評価",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00040107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00050107",
-      "Header":{
-        "value":"仮説",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00060107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00070107",
-      "Header":{
-        "value":"抽象",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00080107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00090107",
-      "Header":{
-        "value":"方法",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00010007",
-      "id":"00100107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00110107",
-      "Header":{
-        "value":"体験",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00120107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00130107",
-      "Header":{
-        "value":"評価",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00140107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00150107",
-      "Header":{
-        "value":"仮説",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00160107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00170107",
-      "Header":{
-        "value":"抽象",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00180107",
-      "Text":{
-        "value":""
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00190107",
-      "Header":{
-        "value":"方法",
-        "index":2
-      }
-    },
-    {
-      "schema_id":"00020007",
-      "id":"00200107",
-      "Text":{
-        "value":""
-      }
+      "parent_id":"00010005",
+      "id":"00020105",
+      "value":"Exception"
     }
   ]
 }

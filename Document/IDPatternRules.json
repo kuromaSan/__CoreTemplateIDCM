@@ -10,13 +10,14 @@
   },
   "propertyTypes":{
     "04":{
-      "01":"arguments"
+      "01":"arguments",
+      "02":"exceptions"
+    },
+    "05":{
+      "01":"exceptions"
     },
     "06":{
-      "01":"nodes"
-    },
-    "07":{
-      "01":"nodes"
+      "01":"steps"
     }
   }
 }
