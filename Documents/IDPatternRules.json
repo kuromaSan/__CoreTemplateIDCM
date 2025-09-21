@@ -1,6 +1,6 @@
 {
   "classTypes":{
-    "01":"Project",
+    "01":"Subject",
     "02":"Todo",
     "03":"Validate",
     "04":"Result",
@@ -10,11 +10,7 @@
   },
   "propertyTypes":{
     "04":{
-      "01":"arguments",
-      "02":"exceptions"
-    },
-    "05":{
-      "01":"exceptions"
+      "01":"arguments"
     },
     "06":{
       "01":"steps"
