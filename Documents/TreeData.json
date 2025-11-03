@@ -9,19 +9,19 @@
           "path_name":"__Todo",
           "title":"実装名",
           "description":"",
-          "Validate":[
+          "Evidence":[
             {
-              "path_name":"__Validate",
-              "title":"検証名",
+              "path_name":"__Evidence",
+              "title":"証拠名",
               "description":"",
               "Result":[
                 {
                   "path_name":"__Result",
                   "title":"結果名",
                   "success":true,
-                  "expected_value":"1.0",
-                  "expected_type":"float",
-                  "exception_type":null,
+                  "value":"1.0",
+                  "type":"float",
+                  "exception":"",
                   "arguments":[
                     {
                       "key":"intKey",
@@ -56,9 +56,9 @@
                       "date":"2000-10-10 10:10:10",
                       "reviewer":"見本名",
                       "success":true,
-                      "expected_value":"1.0",
-                      "expected_type":"float",
-                      "exception_type":null,
+                      "value":"1.0",
+                      "type":"float",
+                      "exception":"",
                       "message":""
                     },
                     {
@@ -67,9 +67,9 @@
                       "date":"2000-12-31 23:59:59",
                       "reviewer":"見本名",
                       "success":false,
-                      "expected_value":null,
-                      "expected_type":null,
-                      "exception_type":"Exception",
+                      "value":"",
+                      "type":"",
+                      "exception":"Exception",
                       "message":"エラー発生"
                     }
                   ]
@@ -84,17 +84,6 @@
                     "2行目",
                     "3行目"
                   ]
-                }
-              ],
-              "Schema":[
-                {
-                  "path_name":"__Schema",
-                  "title":"構想名",
-                  "experience":"",
-                  "evaluation":"",
-                  "abduction":"",
-                  "abstraction_goal":"",
-                  "execution_goal":""
                 }
               ]
             }
@@ -116,7 +105,7 @@
               "title":"構想名",
               "experience":"",
               "evaluation":"",
-              "abduction":"",
+              "hypothesis":"",
               "abstraction_goal":"",
               "execution_goal":""
             }
@@ -129,7 +118,7 @@
           "title":"構想名",
           "experience":"",
           "evaluation":"",
-          "abduction":"",
+          "hypothesis":"",
           "abstraction_goal":"",
           "execution_goal":""
         }
