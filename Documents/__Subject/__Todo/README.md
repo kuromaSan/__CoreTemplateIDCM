@@ -2,7 +2,7 @@
 ## 実装内容
 
 ## 実装検証
-[検証名](./__Validate/README.md)  
+[証拠名](./__Evidence/README.md)  
 ## 実装手順
 [手順名](./__Process/README.md)  
 ## 実装構想
