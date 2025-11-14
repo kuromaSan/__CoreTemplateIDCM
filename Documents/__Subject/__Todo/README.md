@@ -1,7 +1,7 @@
 # 実装名
 ## 実装内容
 
-## 実装検証
+## 実装証拠
 [証拠名](./__Evidence/README.md)  
 ## 実装手順
 [手順名](./__Process/README.md)  
