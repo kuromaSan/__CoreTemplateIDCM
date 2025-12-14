@@ -31,10 +31,7 @@
       "id":"00010004",
       "path_name":"__Result",
       "title":"結果名",
-      "success":true,
-      "value":"1.0",
-      "data_type":"float",
-      "exception":""
+      "success":"1"
     }
   ],
   "arguments":[
@@ -42,36 +39,54 @@
       "parent_id":"00010004",
       "id":"00010104",
       "key":"intKey",
-      "data_type":"int",
+      "type":"int",
       "value":"12"
     },
     {
       "parent_id":"00010004",
       "id":"00020104",
       "key":"floatKey",
-      "data_type":"float",
+      "type":"float",
       "value":"3.14"
     },
     {
       "parent_id":"00010004",
       "id":"00030104",
       "key":"boolKey",
-      "data_type":"bool",
+      "type":"bool",
       "value":"true"
     },
     {
       "parent_id":"00010004",
       "id":"00040104",
       "key":"stringKey",
-      "data_type":"string",
+      "type":"string",
       "value":"value"
     },
     {
       "parent_id":"00010004",
       "id":"00050104",
       "key":"objectKey",
-      "data_type":"object",
+      "type":"object",
       "value":"object"
+    }
+  ],
+  "assertions":[
+    {
+      "parent_id":"00010004",
+      "id":"00010204",
+      "assert":"Equal",
+      "target":"ClassName.functionName()",
+      "data_type":"int",
+      "value":"1"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00020204",
+      "assert":"NotEqual",
+      "target":"ClassName.propertyName",
+      "data_type":"float",
+      "value":"1.23"
     }
   ],
   "Records":[
@@ -82,9 +97,7 @@
       "title":"2000年10月10日10時10分10秒",
       "date":"2000-10-10 10:10:10",
       "reviewer":"見本名",
-      "success": true,
-      "value":"1.0",
-      "data_type":"float",
+      "success": "1",
       "exception":"",
       "message":""
     },
@@ -95,9 +108,7 @@
       "title":"2000年12月31日23時59分59秒",
       "date":"2000-12-31 23:59:59",
       "reviewer":"見本名",
-      "success": false,
-      "value":"",
-      "data_type":"",
+      "success": "0",
       "exception":"Exception",
       "message":"エラー発生"
     }

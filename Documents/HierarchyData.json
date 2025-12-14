@@ -18,10 +18,7 @@
                 {
                   "path_name":"__Result",
                   "title":"結果名",
-                  "success":true,
-                  "value":"1.0",
-                  "type":"float",
-                  "exception":"",
+                  "success":"1",
                   "arguments":[
                     {
                       "key":"intKey",
@@ -49,15 +46,27 @@
                       "value":"object"
                     }
                   ],
+                  "assertions":[
+                    {
+                      "assert":"Equal",
+                      "target":"ClassName.functionName()",
+                      "type":"int",
+                      "value":"1"
+                    },
+                    {
+                      "assert":"NotEqual",
+                      "target":"ClassName.propertyName",
+                      "type":"float",
+                      "value":"1.23"
+                    }
+                  ],
                   "Record":[
                     {
                       "path_name":"20001010101010",
                       "title":"2000年10月10日10時10分10秒",
                       "date":"2000-10-10 10:10:10",
                       "reviewer":"見本名",
-                      "success":true,
-                      "value":"1.0",
-                      "type":"float",
+                      "success":"1",
                       "exception":"",
                       "message":""
                     },
@@ -66,9 +75,7 @@
                       "title":"2000年12月31日23時59分59秒",
                       "date":"2000-12-31 23:59:59",
                       "reviewer":"見本名",
-                      "success":false,
-                      "value":"",
-                      "type":"",
+                      "success":"0",
                       "exception":"Exception",
                       "message":"エラー発生"
                     }

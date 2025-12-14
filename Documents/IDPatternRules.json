@@ -10,7 +10,8 @@
   },
   "propertyTypes":{
     "04":{
-      "01":"arguments"
+      "01":"arguments",
+      "02":"assertions"
     },
     "06":{
       "01":"steps"
