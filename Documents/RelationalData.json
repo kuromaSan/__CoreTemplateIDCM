@@ -7,12 +7,12 @@
       "description":""
     }
   ],
-  "Todos":[
+  "Achievements":[
     {
       "parent_id":"00010001",
       "id":"00010002",
-      "path_name":"__Todo",
-      "title":"実装名",
+      "path_name":"__Achievement",
+      "title":"達成名",
       "description":""
     }
   ],
@@ -98,8 +98,7 @@
       "date":"2000-10-10 10:10:10",
       "reviewer":"見本名",
       "success": "1",
-      "exception":"",
-      "message":""
+      "description":""
     },
     {
       "parent_id":"00010004",
@@ -109,61 +108,30 @@
       "date":"2000-12-31 23:59:59",
       "reviewer":"見本名",
       "success": "0",
-      "exception":"Exception",
-      "message":"エラー発生"
+      "description":"エラー発生"
     }
   ],
-  "Processs":[
+  "Todos":[
     {
       "parent_id":"00010002",
       "id":"00010006",
-      "path_name":"__Process",
-      "title":"手順名"
+      "path_name":"__Todo__Achievement",
+      "title":"実装名",
+      "description":"1行目\n2行目\n3行目"
     },
     {
       "parent_id":"00010003",
       "id":"00020006",
-      "path_name":"__Process",
-      "title":"手順名"
-    }
-  ],
-  "steps":[
-    {
-      "parent_id":"00010006",
-      "id":"00010106",
-      "value":"1行目"
-    },
-    {
-      "parent_id":"00010006",
-      "id":"00020106",
-      "value":"2行目"
-    },
-    {
-      "parent_id":"00010006",
-      "id":"00030106",
-      "value":"3行目"
-    },
-    {
-      "parent_id":"00020006",
-      "id":"00040106",
-      "value":"1行目"
-    },
-    {
-      "parent_id":"00020006",
-      "id":"00050106",
-      "value":"2行目"
-    },
-    {
-      "parent_id":"00020006",
-      "id":"00060106",
-      "value":"3行目"
+      "path_name":"__Todo__Evidence",
+      "title":"実装名",
+      "description":"1行目\n2行目\n3行目"
     }
   ],
   "Schemas":[
     {
       "parent_id":"00010001",
       "id":"00010007",
-      "path_name":"__Schema",
+      "path_name":"__Schema__Subject",
       "title":"構想名",
       "experience":"",
       "evaluation":"",
@@ -174,7 +142,7 @@
     {
       "parent_id":"00010002",
       "id":"00020007",
-      "path_name":"__Schema",
+      "path_name":"__Schema__Achievement",
       "title":"構想名",
       "experience":"",
       "evaluation":"",

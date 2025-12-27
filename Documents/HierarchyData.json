@@ -4,10 +4,10 @@
       "path_name":"__Subject",
       "title":"主題名",
       "description":"",
-      "Todo":[
+      "Achievement":[
         {
-          "path_name":"__Todo",
-          "title":"実装名",
+          "path_name":"__Achievement",
+          "title":"達成名",
           "description":"",
           "Evidence":[
             {
@@ -67,8 +67,7 @@
                       "date":"2000-10-10 10:10:10",
                       "reviewer":"見本名",
                       "success":"1",
-                      "exception":"",
-                      "message":""
+                      "description":""
                     },
                     {
                       "path_name":"20001231235959",
@@ -76,39 +75,30 @@
                       "date":"2000-12-31 23:59:59",
                       "reviewer":"見本名",
                       "success":"0",
-                      "exception":"Exception",
-                      "message":"エラー発生"
+                      "description":"エラー発生"
                     }
                   ]
                 }
               ],
-              "Process":[
+              "Todo":[
                 {
-                  "path_name":"__Process",
-                  "title":"手順名",
-                  "steps":[
-                    "1行目",
-                    "2行目",
-                    "3行目"
-                  ]
+                  "path_name":"__Todo__Evidence",
+                  "title":"実装名",
+                  "description":"1行目\n2行目\n3行目"
                 }
               ]
             }
           ],
-          "Process":[
+          "Todo":[
             {
-              "path_name":"__Process",
-              "title":"手順名",
-              "steps":[
-                "1行目",
-                "2行目",
-                "3行目"
-              ]
+              "path_name":"__Todo__Achievement",
+              "title":"実装名",
+              "description":"1行目\n2行目\n3行目"
             }
           ],
           "Schema":[
             {
-              "path_name":"__Schema",
+              "path_name":"__Schema__Achievement",
               "title":"構想名",
               "experience":"",
               "evaluation":"",
@@ -121,7 +111,7 @@
       ],
       "Schema":[
         {
-          "path_name":"__Schema",
+          "path_name":"__Schema__Subject",
           "title":"構想名",
           "experience":"",
           "evaluation":"",
