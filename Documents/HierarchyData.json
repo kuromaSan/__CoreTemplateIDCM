@@ -4,21 +4,25 @@
       "path_name":"__Subject",
       "title":"主題名",
       "description":"",
+      "group":"",
       "Achievement":[
         {
           "path_name":"__Achievement",
           "title":"達成名",
           "description":"",
+          "group":"",
           "Evidence":[
             {
               "path_name":"__Evidence",
               "title":"証拠名",
               "description":"",
+              "group":"",
+              "success":"1",
               "Result":[
                 {
                   "path_name":"__Result",
                   "title":"結果名",
-                  "success":"1",
+                  "group":"",
                   "arguments":[
                     {
                       "key":"intKey",
@@ -84,7 +88,8 @@
                 {
                   "path_name":"__Todo__Evidence",
                   "title":"実装名",
-                  "description":"1行目\n2行目\n3行目"
+                  "description":"1行目\n2行目\n3行目",
+                  "group":""
                 }
               ]
             }
@@ -93,13 +98,15 @@
             {
               "path_name":"__Todo__Achievement",
               "title":"実装名",
-              "description":"1行目\n2行目\n3行目"
+              "description":"1行目\n2行目\n3行目",
+              "group":""
             }
           ],
           "Schema":[
             {
               "path_name":"__Schema__Achievement",
               "title":"構想名",
+              "group":"",
               "experience":"",
               "evaluation":"",
               "hypothesis":"",
@@ -113,6 +120,7 @@
         {
           "path_name":"__Schema__Subject",
           "title":"構想名",
+          "group":"",
           "experience":"",
           "evaluation":"",
           "hypothesis":"",

@@ -1,43 +1,53 @@
 {
   "Subjects":[
     {
+      "parent_id":"root",
       "id":"00010001",
+      "sort":"0001",
       "path_name":"__Subject",
       "title":"主題名",
-      "description":""
+      "description":"",
+      "group":""
     }
   ],
   "Achievements":[
     {
       "parent_id":"00010001",
       "id":"00010002",
+      "sort":"0001",
       "path_name":"__Achievement",
       "title":"達成名",
-      "description":""
+      "description":"",
+      "group":""
     }
   ],
   "Evidences":[
     {
       "parent_id":"00010002",
       "id":"00010003",
+      "sort":"0001",
       "path_name":"__Evidence",
       "title":"証拠名",
-      "description":""
+      "description":"",
+      "group":"",
+      "success":"1"
     }
   ],
   "Results":[
     {
       "parent_id":"00010003",
       "id":"00010004",
+      "sort":"0001",
       "path_name":"__Result",
       "title":"結果名",
-      "success":"1"
+      "group":""
     }
   ],
   "arguments":[
     {
       "parent_id":"00010004",
       "id":"00010104",
+      "sort":"0001",
       "key":"intKey",
       "type":"int",
       "value":"12"
@@ -45,6 +55,7 @@
     {
       "parent_id":"00010004",
       "id":"00020104",
+      "sort":"0002",
       "key":"floatKey",
       "type":"float",
       "value":"3.14"
@@ -52,6 +63,7 @@
     {
       "parent_id":"00010004",
       "id":"00030104",
+      "sort":"0003",
       "key":"boolKey",
       "type":"bool",
       "value":"true"
@@ -59,6 +71,7 @@
     {
       "parent_id":"00010004",
       "id":"00040104",
+      "sort":"0004",
       "key":"stringKey",
       "type":"string",
       "value":"value"
@@ -66,6 +79,7 @@
     {
       "parent_id":"00010004",
       "id":"00050104",
+      "sort":"0005",
       "key":"objectKey",
       "type":"object",
       "value":"object"
@@ -75,17 +89,19 @@
     {
       "parent_id":"00010004",
       "id":"00010204",
+      "sort":"0001",
       "assert":"Equal",
       "target":"ClassName.functionName()",
-      "data_type":"int",
+      "type":"int",
       "value":"1"
     },
     {
       "parent_id":"00010004",
       "id":"00020204",
+      "sort":"0002",
       "assert":"NotEqual",
       "target":"ClassName.propertyName",
-      "data_type":"float",
+      "type":"float",
       "value":"1.23"
     }
   ],
@@ -93,6 +109,7 @@
     {
       "parent_id":"00010004",
       "id":"00010005",
+      "sort":"0001",
       "path_name":"20001010101010",
       "title":"2000年10月10日10時10分10秒",
       "date":"2000-10-10 10:10:10",
@@ -103,6 +120,7 @@
     {
       "parent_id":"00010004",
       "id":"00020005",
+      "sort":"0002",
       "path_name":"20001231235959",
       "title":"2000年12月31日23時59分59秒",
       "date":"2000-12-31 23:59:59",
@@ -115,24 +133,30 @@
     {
       "parent_id":"00010002",
       "id":"00010006",
+      "sort":"0001",
       "path_name":"__Todo__Achievement",
       "title":"実装名",
-      "description":"1行目\n2行目\n3行目"
+      "description":"1行目\n2行目\n3行目",
+      "group":""
     },
     {
       "parent_id":"00010003",
       "id":"00020006",
+      "sort":"0001",
       "path_name":"__Todo__Evidence",
       "title":"実装名",
-      "description":"1行目\n2行目\n3行目"
+      "description":"1行目\n2行目\n3行目",
+      "group":""
     }
   ],
   "Schemas":[
     {
       "parent_id":"00010001",
       "id":"00010007",
+      "sort":"0001",
       "path_name":"__Schema__Subject",
       "title":"構想名",
+      "group":"",
       "experience":"",
       "evaluation":"",
       "hypothesis":"",
@@ -142,8 +166,10 @@
     {
       "parent_id":"00010002",
       "id":"00020007",
+      "sort":"0001",
       "path_name":"__Schema__Achievement",
       "title":"構想名",
+      "group":"",
       "experience":"",
       "evaluation":"",
       "hypothesis":"",
