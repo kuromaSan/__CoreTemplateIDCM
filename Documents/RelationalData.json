@@ -48,6 +48,7 @@
       "parent_id":"00010004",
       "id":"00010104",
       "sort":"0001",
+      "index":"0",
       "key":"intKey",
       "type":"int",
       "value":"12"
@@ -56,6 +57,7 @@
       "parent_id":"00010004",
       "id":"00020104",
       "sort":"0002",
+      "index":"0",
       "key":"floatKey",
       "type":"float",
       "value":"3.14"
@@ -64,6 +66,7 @@
       "parent_id":"00010004",
       "id":"00030104",
       "sort":"0003",
+      "index":"0",
       "key":"boolKey",
       "type":"bool",
       "value":"true"
@@ -72,6 +75,7 @@
       "parent_id":"00010004",
       "id":"00040104",
       "sort":"0004",
+      "index":"0",
       "key":"stringKey",
       "type":"string",
       "value":"value"
@@ -80,6 +84,7 @@
       "parent_id":"00010004",
       "id":"00050104",
       "sort":"0005",
+      "index":"0",
       "key":"objectKey",
       "type":"object",
       "value":"object"
@@ -168,6 +173,19 @@
       "id":"00020007",
       "sort":"0001",
       "path_name":"__Schema__Achievement",
+      "title":"構想名",
+      "group":"",
+      "experience":"",
+      "evaluation":"",
+      "hypothesis":"",
+      "abstraction_goal":"",
+      "execution_goal":""
+    },
+    {
+      "parent_id":"00010003",
+      "id":"00030007",
+      "sort":"0001",
+      "path_name":"__Schema__Evidence",
       "title":"構想名",
       "group":"",
       "experience":"",

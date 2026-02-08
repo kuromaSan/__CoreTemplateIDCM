@@ -25,26 +25,31 @@
                   "group":"",
                   "arguments":[
                     {
+                      "index":"0",
                       "key":"intKey",
                       "type":"int",
                       "value":"12"
                     },
                     {
+                      "index":"0",
                       "key":"floatKey",
                       "type":"float",
                       "value":"3.14"
                     },
                     {
+                      "index":"0",
                       "key":"boolKey",
                       "type":"bool",
                       "value":"true"
                     },
                     {
+                      "index":"0",
                       "key":"stringKey",
                       "type":"string",
                       "value":"value"
                     },
                     {
+                      "index":"0",
                       "key":"objectKey",
                       "type":"object",
                       "value":"object"
@@ -90,6 +95,18 @@
                   "title":"実装名",
                   "description":"1行目\n2行目\n3行目",
                   "group":""
+                }
+              ],
+              "Schema":[
+                {
+                  "path_name":"__Schema__Evidence",
+                  "title":"構想名",
+                  "group":"",
+                  "experience":"",
+                  "evaluation":"",
+                  "hypothesis":"",
+                  "abstraction_goal":"",
+                  "execution_goal":""
                 }
               ]
             }
