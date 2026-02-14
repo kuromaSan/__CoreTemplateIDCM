@@ -6,12 +6,15 @@
     "04":"Result",
     "05":"Record",
     "06":"Todo",
-    "07":"Schema"
+    "07":"Schema",
+    "08":"Group"
   },
   "propertyTypes":{
-    "04":{
-      "01":"arguments",
-      "02":"assertions"
-    }
+    "01":"arguments",
+    "02":"assertions"
+  },
+  "EdgeTypes":{
+    "80":"Parent",
+    "81":"Group"
   }
 }

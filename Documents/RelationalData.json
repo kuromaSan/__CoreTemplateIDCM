@@ -1,167 +1,76 @@
 {
-  "Subjects":[
+  "SubjectConfigs":[
     {
-      "parent_id":"root",
       "id":"00010001",
-      "sort":"0001",
       "path_name":"__Subject",
       "title":"主題名",
-      "description":"",
-      "group":""
+      "description":""
     }
   ],
-  "Achievements":[
+  "AchievementConfigs":[
     {
-      "parent_id":"00010001",
       "id":"00010002",
-      "sort":"0001",
       "path_name":"__Achievement",
       "title":"達成名",
-      "description":"",
-      "group":""
+      "description":""
     }
   ],
-  "Evidences":[
+  "EvidenceConfigs":[
     {
-      "parent_id":"00010002",
       "id":"00010003",
-      "sort":"0001",
       "path_name":"__Evidence",
       "title":"証拠名",
       "description":"",
-      "group":"",
       "success":"1"
     }
   ],
-  "Results":[
+  "ResultConfigs":[
     {
-      "parent_id":"00010003",
       "id":"00010004",
-      "sort":"0001",
       "path_name":"__Result",
-      "title":"結果名",
-      "group":""
+      "title":"結果名"
     }
   ],
-  "arguments":[
+  "RecordConfigs":[
     {
-      "parent_id":"00010004",
-      "id":"00010104",
-      "sort":"0001",
-      "index":"0",
-      "key":"intKey",
-      "type":"int",
-      "value":"12"
-    },
-    {
-      "parent_id":"00010004",
-      "id":"00020104",
-      "sort":"0002",
-      "index":"0",
-      "key":"floatKey",
-      "type":"float",
-      "value":"3.14"
-    },
-    {
-      "parent_id":"00010004",
-      "id":"00030104",
-      "sort":"0003",
-      "index":"0",
-      "key":"boolKey",
-      "type":"bool",
-      "value":"true"
-    },
-    {
-      "parent_id":"00010004",
-      "id":"00040104",
-      "sort":"0004",
-      "index":"0",
-      "key":"stringKey",
-      "type":"string",
-      "value":"value"
-    },
-    {
-      "parent_id":"00010004",
-      "id":"00050104",
-      "sort":"0005",
-      "index":"0",
-      "key":"objectKey",
-      "type":"object",
-      "value":"object"
-    }
-  ],
-  "assertions":[
-    {
-      "parent_id":"00010004",
-      "id":"00010204",
-      "sort":"0001",
-      "assert":"Equal",
-      "target":"ClassName.functionName()",
-      "type":"int",
-      "value":"1"
-    },
-    {
-      "parent_id":"00010004",
-      "id":"00020204",
-      "sort":"0002",
-      "assert":"NotEqual",
-      "target":"ClassName.propertyName",
-      "type":"float",
-      "value":"1.23"
-    }
-  ],
-  "Records":[
-    {
-      "parent_id":"00010004",
       "id":"00010005",
-      "sort":"0001",
       "path_name":"20001010101010",
       "title":"2000年10月10日10時10分10秒",
+      "description":"",
       "date":"2000-10-10 10:10:10",
       "reviewer":"見本名",
-      "success": "1",
-      "description":""
+      "success": "1"
     },
     {
-      "parent_id":"00010004",
       "id":"00020005",
-      "sort":"0002",
       "path_name":"20001231235959",
       "title":"2000年12月31日23時59分59秒",
+      "description":"エラー発生",
       "date":"2000-12-31 23:59:59",
       "reviewer":"見本名",
-      "success": "0",
-      "description":"エラー発生"
+      "success": "0"
     }
   ],
-  "Todos":[
+  "TodoConfigs":[
     {
-      "parent_id":"00010002",
       "id":"00010006",
-      "sort":"0001",
       "path_name":"__Todo__Achievement",
       "title":"実装名",
-      "description":"1行目\n2行目\n3行目",
-      "group":""
+      "description":"1行目\n2行目\n3行目"
     },
     {
-      "parent_id":"00010003",
       "id":"00020006",
-      "sort":"0001",
       "path_name":"__Todo__Evidence",
       "title":"実装名",
-      "description":"1行目\n2行目\n3行目",
-      "group":""
+      "description":"1行目\n2行目\n3行目"
     }
   ],
-  "Schemas":[
+  "SchemaConfigs":[
     {
       "parent_id":"00010001",
       "id":"00010007",
-      "sort":"0001",
       "path_name":"__Schema__Subject",
       "title":"構想名",
-      "group":"",
       "experience":"",
       "evaluation":"",
       "hypothesis":"",
@@ -171,10 +80,8 @@
     {
       "parent_id":"00010002",
       "id":"00020007",
-      "sort":"0001",
       "path_name":"__Schema__Achievement",
       "title":"構想名",
-      "group":"",
       "experience":"",
       "evaluation":"",
       "hypothesis":"",
@@ -184,15 +91,162 @@
     {
       "parent_id":"00010003",
       "id":"00030007",
-      "sort":"0001",
       "path_name":"__Schema__Evidence",
       "title":"構想名",
-      "group":"",
       "experience":"",
       "evaluation":"",
       "hypothesis":"",
       "abstraction_goal":"",
       "execution_goal":""
+    }
+  ],
+  "GroupConfigs":[
+    {
+      "id":"00010008",
+      "path_name":"__Group",
+      "title":"グループ名"
+    }
+  ],
+  "ArgumentProperties":[
+    {
+      "parent_id":"00010004",
+      "id":"00010104",
+      "index":"0",
+      "key":"intKey",
+      "type":"int",
+      "value":"12"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00020104",
+      "index":"0",
+      "key":"floatKey",
+      "type":"float",
+      "value":"3.14"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00030104",
+      "index":"0",
+      "key":"boolKey",
+      "type":"bool",
+      "value":"true"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00040104",
+      "index":"0",
+      "key":"stringKey",
+      "type":"string",
+      "value":"value"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00050104",
+      "index":"0",
+      "key":"objectKey",
+      "type":"object",
+      "value":"object"
+    }
+  ],
+  "AssertionProperties":[
+    {
+      "parent_id":"00010004",
+      "id":"00010204",
+      "assert":"Equal",
+      "target":"ClassName.functionName()",
+      "type":"int",
+      "value":"1"
+    },
+    {
+      "parent_id":"00010004",
+      "id":"00020204",
+      "assert":"NotEqual",
+      "target":"ClassName.propertyName",
+      "type":"float",
+      "value":"1.23"
+    }
+  ],
+  "ParentEdges":[
+    {
+      "id":"00010080",
+      "from_id":"00010001",
+      "to_id":"00010002",
+      "sequence":"0"
+    },
+    {
+      "id":"00020080",
+      "from_id":"00010002",
+      "to_id":"00010003",
+      "sequence":"0"
+    },
+    {
+      "id":"00030080",
+      "from_id":"00010003",
+      "to_id":"00010004",
+      "sequence":"0"
+    },
+    {
+      "id":"00040080",
+      "from_id":"00010004",
+      "to_id":"00010005",
+      "sequence":"1"
+    },
+    {
+      "id":"00050080",
+      "from_id":"00010004",
+      "to_id":"00020005",
+      "sequence":"0"
+    },
+    {
+      "id":"00060080",
+      "from_id":"00010002",
+      "to_id":"00010006",
+      "sequence":"0"
+    },
+    {
+      "id":"00070080",
+      "from_id":"00010003",
+      "to_id":"00020006",
+      "sequence":"0"
+    },
+    {
+      "id":"00080080",
+      "from_id":"00010001",
+      "to_id":"00010007",
+      "sequence":"0"
+    },
+    {
+      "id":"00090080",
+      "from_id":"00010002",
+      "to_id":"00020007",
+      "sequence":"0"
+    },
+    {
+      "id":"00100080",
+      "from_id":"00010003",
+      "to_id":"00030007",
+      "sequence":"0"
+    }
+  ],
+  "GroupEdges":[
+    {
+      "id":"00010081",
+      "from_id":"00010008",
+      "to_id":"00010002",
+      "sequence":"0"
+    },
+    {
+      "id":"00020081",
+      "from_id":"00010008",
+      "to_id":"00010003",
+      "sequence":"1"
+    },
+    {
+      "id":"00030081",
+      "from_id":"00010008",
+      "to_id":"00010004",
+      "sequence":"2"
     }
   ]
 }

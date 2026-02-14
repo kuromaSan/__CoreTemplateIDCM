@@ -4,54 +4,50 @@
       "path_name":"__Subject",
       "title":"主題名",
       "description":"",
-      "group":"",
       "Achievement":[
         {
           "path_name":"__Achievement",
           "title":"達成名",
           "description":"",
-          "group":"",
           "Evidence":[
             {
               "path_name":"__Evidence",
               "title":"証拠名",
               "description":"",
-              "group":"",
               "success":"1",
               "Result":[
                 {
                   "path_name":"__Result",
                   "title":"結果名",
-                  "group":"",
                   "arguments":[
                     {
                       "index":"0",
                       "key":"intKey",
-                      "type":"int",
+                      "type":"Int",
                       "value":"12"
                     },
                     {
                       "index":"0",
                       "key":"floatKey",
-                      "type":"float",
+                      "type":"Float",
                       "value":"3.14"
                     },
                     {
                       "index":"0",
                       "key":"boolKey",
-                      "type":"bool",
+                      "type":"Bool",
                       "value":"true"
                     },
                     {
                       "index":"0",
                       "key":"stringKey",
-                      "type":"string",
+                      "type":"String",
                       "value":"value"
                     },
                     {
                       "index":"0",
                       "key":"objectKey",
-                      "type":"object",
+                      "type":"Object",
                       "value":"object"
                     }
                   ],
@@ -59,13 +55,13 @@
                     {
                       "assert":"Equal",
                       "target":"ClassName.functionName()",
-                      "type":"int",
+                      "type":"Int",
                       "value":"1"
                     },
                     {
                       "assert":"NotEqual",
                       "target":"ClassName.propertyName",
-                      "type":"float",
+                      "type":"Float",
                       "value":"1.23"
                     }
                   ],
@@ -93,15 +89,13 @@
                 {
                   "path_name":"__Todo__Evidence",
                   "title":"実装名",
-                  "description":"1行目\n2行目\n3行目",
-                  "group":""
+                  "description":"1行目\n2行目\n3行目"
                 }
               ],
               "Schema":[
                 {
                   "path_name":"__Schema__Evidence",
                   "title":"構想名",
-                  "group":"",
                   "experience":"",
                   "evaluation":"",
                   "hypothesis":"",
@@ -115,15 +109,13 @@
             {
               "path_name":"__Todo__Achievement",
               "title":"実装名",
-              "description":"1行目\n2行目\n3行目",
-              "group":""
+              "description":"1行目\n2行目\n3行目"
             }
           ],
           "Schema":[
             {
               "path_name":"__Schema__Achievement",
               "title":"構想名",
-              "group":"",
               "experience":"",
               "evaluation":"",
               "hypothesis":"",
@@ -137,7 +129,6 @@
         {
           "path_name":"__Schema__Subject",
           "title":"構想名",
-          "group":"",
           "experience":"",
           "evaluation":"",
           "hypothesis":"",
