@@ -87,14 +87,14 @@
               ],
               "Todo":[
                 {
-                  "path_name":"__Todo__Evidence",
+                  "path_name":"__Todo_Evidence",
                   "title":"実装名",
                   "description":"1行目\n2行目\n3行目"
                 }
               ],
               "Schema":[
                 {
-                  "path_name":"__Schema__Evidence",
+                  "path_name":"__Schema_Evidence",
                   "title":"構想名",
                   "experience":"",
                   "evaluation":"",
@@ -107,14 +107,14 @@
           ],
           "Todo":[
             {
-              "path_name":"__Todo__Achievement",
+              "path_name":"__Todo_Achievement",
               "title":"実装名",
               "description":"1行目\n2行目\n3行目"
             }
           ],
           "Schema":[
             {
-              "path_name":"__Schema__Achievement",
+              "path_name":"__Schema_Achievement",
               "title":"構想名",
               "experience":"",
               "evaluation":"",
@@ -127,7 +127,7 @@
       ],
       "Schema":[
         {
-          "path_name":"__Schema__Subject",
+          "path_name":"__Schema_Subject",
           "title":"構想名",
           "experience":"",
           "evaluation":"",
