@@ -54,13 +54,13 @@
   "TodoConfigs":[
     {
       "id":"00010006",
-      "path_name":"__Todo__Achievement",
+      "path_name":"__Todo_Achievement",
       "title":"実装名",
       "description":"1行目\n2行目\n3行目"
     },
     {
       "id":"00020006",
-      "path_name":"__Todo__Evidence",
+      "path_name":"__Todo_Evidence",
       "title":"実装名",
       "description":"1行目\n2行目\n3行目"
     }
@@ -69,7 +69,7 @@
     {
       "parent_id":"00010001",
       "id":"00010007",
-      "path_name":"__Schema__Subject",
+      "path_name":"__Schema_Subject",
       "title":"構想名",
       "experience":"",
       "evaluation":"",
@@ -80,7 +80,7 @@
     {
       "parent_id":"00010002",
       "id":"00020007",
-      "path_name":"__Schema__Achievement",
+      "path_name":"__Schema_Achievement",
       "title":"構想名",
       "experience":"",
       "evaluation":"",
@@ -91,7 +91,7 @@
     {
       "parent_id":"00010003",
       "id":"00030007",
-      "path_name":"__Schema__Evidence",
+      "path_name":"__Schema_Evidence",
       "title":"構想名",
       "experience":"",
       "evaluation":"",
@@ -239,13 +239,13 @@
     {
       "id":"00020081",
       "from_id":"00010008",
-      "to_id":"00010003",
+      "to_id":"00010006",
       "sequence":"1"
     },
     {
       "id":"00030081",
       "from_id":"00010008",
-      "to_id":"00010004",
+      "to_id":"00020007",
       "sequence":"2"
     }
   ]

@@ -11,8 +11,8 @@
 - Equal(ClassName.functionName(), int 1)
 - NotEqual(ClassName.propertyName, float 1.23)
 ## 記録一覧
-[2000年10月10日10時10分10秒](./20001010101010/README.md)  
-[2000年12月31日23時59分59秒](./20001231235959/README.md)  
+[2000年10月10日10時10分10秒](../../Record/20001010101010/README.md)  
+[2000年12月31日23時59分59秒](../../Record/20001231235959/README.md)  
 
 ---
-[Back](../README.md)  
+[Back](../../Evidence/__Evidence/README.md)  
